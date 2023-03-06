@@ -1,8 +1,8 @@
-import app from "./app";
+import app from './app'
 
-
-const port = process.env.PORT;
+const port = process.env.PORT
 
 app.listen(port, () => {
-    console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
-});
+  // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
+  console.log(`⚡️[server]: Server is running at http://localhost:${port}`)
+})
